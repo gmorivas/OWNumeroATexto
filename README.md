@@ -10,5 +10,8 @@ Incluye la librería en tu script e invoca el método owNumeroATexto enviando co
 include_once("OWNumeroATexto.php");
 
 $ejemplo = owNumeroATexto(999837232);
+echo $ejemplo;
 // resultado -> novecientos noventa y nueve millones ochocientos treinta y siete mil doscientos treinta y dos
+
+
 ```
