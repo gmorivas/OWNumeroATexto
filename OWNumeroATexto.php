@@ -142,6 +142,6 @@
   }
 
   function owNumeroATexto($num){
-    return OWHerramientas::getInstancia()->numeroATexto(floor($num));
+    return OWNumeroATexto::getInstancia()->numeroATexto(floor($num));
   }
 ?>
